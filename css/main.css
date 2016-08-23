@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  background-color: #EBEBEB;
+}
+
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.body-wrapper {
+  margin: 0 auto;
+  width: 95%;
+  background-color: #EBEBEB;
+}
+
+
+/* ------------ TOP NAVIGATION ----------- */
+
+#top-navigation {
+  height: 150px;
+  border-bottom: 3px solid #AAAAAA;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 50px;
+}
+
+.logo h1 {
+  font-size: 32px;
+  text-decoration: none;
+  color: #6B656B;
+  font-family: 'Dancing Script', cursive;
+  display: inline-block;
+  line-height: 40px;
+  margin: 0;
+}
+
+.logo img {
+  width: 50px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+nav {
+  float: right;
+  padding: 65px 0;
+}
+
+nav a {
+  margin-right: 10%;
+  color: #ACA3A0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+}
+
+nav a:hover {
+  color: #6B656B;
+  border-top: 4px solid white;
+  padding-top: 60px;
+  border-color: #EA8EA2;
+}
+
+
+/* ------- HEADER ------------ */
+
+#header {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 70px;
+}
+
+#header p {
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 70px;
+  letter-spacing: 2px;
+  color: #6B656B;
+}
+
+.roxy {
+  color: #EA8EA2;
+}
+
+.occupation {
+  font-size: 22px;
+  letter-spacing: -1px;
+}
+
+#header img {
+  width: 95%;
+  height: 400px;
+  border-radius: 15px;
+}
+
+
+/* ----------- ABOUT ------------ */
+
+#about {
+  width: 95%;
+}
+
+.left-about, .right-about {
+  float: left;
+  width: 45%;
+  margin-left: 3%;
+  color: #6B656B;
+}
+
+.left-about h2, .right-about h2 {
+  margin: 70px 0 40px;
+  text-align: center;
+  color: pink;
+  font-size: 32px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.left-about p, .right-about p {
+  font-size: 22px;
+  margin-bottom: 70px;
+}
+
+
+/* -------- ALBUMS ------ */
+
+#albums {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.box-album {
+  float: left;
+  width: 16.5%;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 2%;
+  margin-bottom: 25px;
+}
+
+.box-left {
+  margin-left:5% 
+}
+
+.box-album img {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.box-album h3, .box-album p {
+  color: #AAAAAA;
+  padding-left: 10px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.box-album a{
+  text-decoration: none;
+}
+
+.box-album h3 {
+  font-size: 32px;
+  margin: 3px 0;
+}
+
+.box-album p {
+  color: #EA8EA2;
+  margin-top: 0;
+}
+
+
+/* ------ ALBUM FOOTER ------- */
+
+.album-footer {
+  clear: both;
+  margin: 70px 0 70px 0;
+  text-align: center;
+  color: #EA8EA2;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
+
+.album-footer p {
+  margin: 0;
+}
+
+
+/* ------- CONTACT -------- */
+
+footer {
+  background-color: #2D2D2D;
+  height: 350px;
+  padding: 70px 0 70px 2%;
+}
+
+.contact {
+  float: left;
+  width: 50%;
+}
+
+.contact label {
+  color: #EA8EA2;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  margin-top: 15px;
+  width: 80%;
+  font-size: 22px;
+  padding: 2px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.contact button {
+  background-color: transparent;
+  font-size: 22px;
+  margin-top: 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* --------- SOCIAL -------- */
+
+.social {
+  float: right;
+  margin: 130px 5% 0 0;
+}
+
+.social li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.social .fa {
+  color: #2D2D2D;
+  width: 25px;
+  height: 25px;
+  background-color: #EA8EA2;
+  border-radius: 50%;
+  padding: 10px 0 0 12px;
+}
